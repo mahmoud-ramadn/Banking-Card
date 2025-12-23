@@ -3,7 +3,7 @@ import { GridScan } from './GridScan';
 export default function Hero() {
   return (
     <div className="relative mt-20">
-      <div style={{ width: '100%',}} className="relative md:h-[900px] h-[600px]">
+      <div style={{ width: '100%' }} className="relative h-[600px] md:h-[900px]">
         <GridScan
           sensitivity={2}
           lineThickness={1}
@@ -30,7 +30,7 @@ export default function Hero() {
       <img
         src="/card-figure-group.png"
         alt="group"
-        className="mx-auto block aspect-[8/5] aspect-square max-w-[100%] object-cover md:hidden"
+        className="mx-auto block aspect-[8/5] aspect-square w-full max-w-[100%] object-cover md:hidden"
       />
     </div>
   );
