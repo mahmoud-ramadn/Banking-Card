@@ -3,7 +3,10 @@ import { GridScan } from './GridScan';
 export default function Hero() {
   return (
     <div className="relative mt-20">
-      <div style={{ width: '100%' }} className="relative h-[600px] md:h-[900px] rounded-lg overflow-hidden">
+      <div
+        style={{ width: '100%' }}
+        className="relative h-[600px] overflow-hidden rounded-lg md:h-[900px]"
+      >
         <GridScan
           sensitivity={2}
           lineThickness={1}
